@@ -13,4 +13,4 @@ jobs:
           token: ${{ secrets.PAT }}
           repository: ${{ matrix.repo }}
           event-type: update
-          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}", "module": "ruddnevITMO/s1-prog-lab4", "branch": "master"}'
+          client-payload: '{"ref": "${{ github.ref }}", "sha": "${{ github.sha }}", "module": "ruddnevITMO/s1-prog-lab4", "branch": "main"}'
