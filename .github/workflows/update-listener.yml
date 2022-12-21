@@ -5,7 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        repo: ["ruddnev/itmo"]
+        repo: ["ruddnevITMO/s1-prog-lab4"]
     steps:
       - name: Push to repo
         uses: peter-evans/repository-dispatch@v2
