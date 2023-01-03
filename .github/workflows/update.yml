@@ -1,7 +1,8 @@
 name: Update module
 on:
-  repository_dispatch:
-    types: update
+#   repository_dispatch:
+#     types: update
+  workflow_dispatch
 jobs:
   update:
     runs-on: ubuntu-latest
