@@ -1,4 +1,4 @@
-name: Update module
+name: Update submodules and add new ones
 on:
   workflow_dispatch:
   schedule:
@@ -19,7 +19,7 @@ jobs:
           grep2="https:\/\/github\.com\/${orgName}\/[a-zA-Z0-9\-]{1,}$"
           curl -H 'Cache-Control: no-cache, no-store' -s https://raw.githubusercontent.com/${mainRepo}/main/README.md | grep -i -o -P "$grep1" | grep -o -P 's[0-9]-[a-zA-Z0-9]{1,}-[a-zA-Z0-9]{1,}' | sort > readmeRepos.tmp
           curl -H 'Cache-Control: no-cache, no-store' -s https://raw.githubusercontent.com/${mainRepo}/main/.gitmodules | grep -i -o -P "$grep2" | grep -o -P 's[0-9]-[a-zA-Z0-9]{1,}-[a-zA-Z0-9]{1,}' | sort > submoduleRepos.tmp
-          rm newLastCommits.tmp
+          rm -f newLastCommits.tmp
           touch newLastCommits.tmp
           cat submoduleRepos.tmp | while read repoName; do if [ -z "$repoName" ]; then echo line is empty!; else result=$(curl -s -H "Accept: application/vnd.github.VERSION.sha" "https://api.github.com/repos/${orgName}/${repoName}/commits/main"); echo "${repoName}: ${result}" >> newLastCommits.tmp; fi; done; 
           sort -o sortedNewLastCommits.tmp newLastCommits.tmp; rm newLastCommits.tmp
