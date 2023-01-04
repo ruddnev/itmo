@@ -1,3 +1,6 @@
 [submodule "1st-semester/discrete-mathematics/lab1"]
 	path = 1st-semester/discrete-mathematics/lab1
 	url = https://github.com/ruddnevITMO/s1-dm-lab1
+[submodule "1st-semester/mathematical-analysis/colloquium"]
+	path = 1st-semester/mathematical-analysis/colloquium
+	url = https://github.com/ruddnevITMO/s1-ma-colloquium
