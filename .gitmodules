@@ -10,3 +10,7 @@
 	path = 1st-semester/programming-labs/lab1
 	url = https://github.com/ruddnevitmo/s1-prog-lab1
 	branch = main
+[submodule "1st-semester/programming-labs/lab2"]
+	path = 1st-semester/programming-labs/lab2
+	url = https://github.com/ruddnevitmo/s1-prog-lab2
+	branch = main
