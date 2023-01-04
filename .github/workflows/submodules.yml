@@ -13,7 +13,7 @@ jobs:
           submodules: recursive
       - name: Update module
         run: |
-          mainRepo=${{github.actions_repository}}
+          mainRepo=${{ github.actions_repository }}
           orgName=$(echo $mainRepo | tr -d "/")
           grep1="\(https:\/\/github\.com\/${orgName}\/[a-zA-Z0-9\-]{1,}(\/tree\/main)?\)"
           grep2="https:\/\/github\.com\/${orgName}\/[a-zA-Z0-9\-]{1,}$"
