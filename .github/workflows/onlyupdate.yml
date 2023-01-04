@@ -13,10 +13,10 @@ jobs:
           submodules: recursive
       - name: Submodule update
         run: |
-          git config --global user.name "GitHub Action"
-          git config --global user.email "noreply@github.com"
           mainRepo="ruddnev/itmo"
           headerPrefix="###"
+          git config --global user.name "GitHub Action"
+          git config --global user.email "noreply@github.com"
           orgName=$(echo $mainRepo | tr -d "/")
           grep1="\(https:\/\/github\.com\/${orgName}\/[a-zA-Z0-9\-]{1,}(\/tree\/main)?\)"
           grep2="https:\/\/github\.com\/${orgName}\/[a-zA-Z0-9\-]{1,}$"
@@ -27,5 +27,6 @@ jobs:
           sort -o sortedNewLastCommits.tmp newLastCommits.tmp; rm newLastCommits.tmp
           newLastCommits="sortedNewLastCommits.tmp"
           lastCommits=".github/workflows/lastCommits.txt"
-          if [ -f "$lastCommits" ]; then if cmp --silent -- "$lastCommits" "$newLastCommits"; then echo "no changes"; else git submodule update --recursive --remote; git commit -am "making submodules keep track of main branch"; fi; else cp $newLastCommits $lastCommits; git add $lastCommits; git commit -m "making first copy of lastCommits"; fi
-          git push
+          if [ -f "$lastCommits" ]; then if cmp --silent -- "$lastCommits" "$newLastCommits"; then echo "no changes"; else git submodule update --recursive --remote; git commit -am "making submodules keep track of main branch"; git push; fi; else cp $newLastCommits $lastCommits; git add $lastCommits; git commit -m "making first copy of lastCommits";  git push; fi
+
+
