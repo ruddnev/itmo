@@ -1,6 +1,6 @@
-s1-dm-lab1: 7bddc5612c489d0c67d990831aab7ac82bcbb96e
-s1-ma-colloquium: 5f0347e73e2d8412488aa7ab6cbec14c35122d91
-s1-prog-lab1: aad6bec56fdab25ce77ec1aa709211e0dc13b960
-s1-prog-lab2: 0960bb20a39f2d27919573996e11e540d3e07b09
-s1-prog-lab3: b2bd95c4cc43b8cb969c540662c95c2ce0004fd1
-s1-prog-lab4: 77dee1902ebc20987ba4158c51de9ffc0fc71d16
+s1-dm-lab1: {"message":"API rate limit exceeded for 13.88.61.32. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+s1-ma-colloquium: {"message":"API rate limit exceeded for 13.88.61.32. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+s1-prog-lab1: {"message":"API rate limit exceeded for 13.88.61.32. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+s1-prog-lab2: {"message":"API rate limit exceeded for 13.88.61.32. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+s1-prog-lab3: {"message":"API rate limit exceeded for 13.88.61.32. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
+s1-prog-lab4: {"message":"API rate limit exceeded for 13.88.61.32. (But here's the good news: Authenticated requests get a higher rate limit. Check out the documentation for more details.)","documentation_url":"https://docs.github.com/rest/overview/resources-in-the-rest-api#rate-limiting"}
