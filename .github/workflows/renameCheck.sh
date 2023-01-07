@@ -6,6 +6,8 @@ oldHeaders=".github/workflows/headers.txt"
 gitmodules=".gitmodules"
 repoRegex="s[0-9]-[a-zA-Z0-9]{1,}-[a-zA-Z0-9]{1,}"
 
+find . -empty -type d -delete
+git commit -am "cleaning empty folders before action run"
 
 touch readmeDirs.tmp
 touch submoduleDirs.tmp
@@ -131,6 +133,6 @@ if [ -s "submoduleDirs.tmp" ]; then
 fi
 
 find . -empty -type d -delete
-git commit -am "cleaning empty folders"
+git commit -am "cleaning empty folders after action run"
 
 rm -rf *.tmp
