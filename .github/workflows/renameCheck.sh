@@ -93,7 +93,7 @@ if [ -s "submoduleDirs.tmp" ]; then
         git config -f .git/config --remove-section submodule.$submoduleName
         git config -f .gitmodules --remove-section submodule.$submoduleName
 
-        # git rm --cached -- $submoduleName
+        git rm --cached -- $submoduleName
         rm -rf $submoduleName   
         rm -rf .git/modules/$submoduleName
 
