@@ -1,3 +1,5 @@
+#!/bin/bash
+
 token="$1"
 
 touch newLastCommits.tmp
