@@ -14,7 +14,7 @@ jobs:
       - name: Submodule update
         env:
           mainRepo: ruddnev/ITMO
-          token: ${{ secrets.PAT }}
+          httpsToken: ${{ secrets.PAT }}
         run: |
           headerPrefix="###"
           git config --global user.name "GitHub Action"
@@ -23,9 +23,9 @@ jobs:
           chmod +x .github/workflows/*.sh
           grep1="\(https:\/\/github\.com\/${orgName}\/[a-zA-Z0-9\-]{1,}(\/tree\/main)?\)"
           grep2="https:\/\/github\.com\/${orgName}\/[a-zA-Z0-9\-]{1,}$"
-          curl -H "Authorization: token ${token}" -H 'Cache-Control: no-cache, no-store' -s https://raw.githubusercontent.com/${mainRepo}/main/README.md | grep -i -o -P "$grep1" | grep -o -P 's[0-9]-[a-zA-Z0-9]{1,}-[a-zA-Z0-9]{1,}' | sort > readmeRepos.tmp
+          curl -H "Authorization: token ${httpsToken}" -H 'Cache-Control: no-cache, no-store' -s https://raw.githubusercontent.com/${mainRepo}/main/README.md | grep -i -o -P "$grep1" | grep -o -P 's[0-9]-[a-zA-Z0-9]{1,}-[a-zA-Z0-9]{1,}' | sort > readmeRepos.tmp
           sleep 5
-          curl -H "Authorization: token ${token}" -H 'Cache-Control: no-cache, no-store' -s https://raw.githubusercontent.com/${mainRepo}/main/.gitmodules | grep -i -o -P "$grep2" | grep -o -P 's[0-9]-[a-zA-Z0-9]{1,}-[a-zA-Z0-9]{1,}' | sort > submoduleRepos.tmp
+          curl -H "Authorization: token ${httpsToken}" -H 'Cache-Control: no-cache, no-store' -s https://raw.githubusercontent.com/${mainRepo}/main/.gitmodules | grep -i -o -P "$grep2" | grep -o -P 's[0-9]-[a-zA-Z0-9]{1,}-[a-zA-Z0-9]{1,}' | sort > submoduleRepos.tmp
           comm -13 submoduleRepos.tmp readmeRepos.tmp > newRepos.tmp
           newReposCount=$(cat newRepos.tmp | wc -l)
           
@@ -40,4 +40,4 @@ jobs:
           
           REPO_URL=https://github.com/${mainRepo}.git"
           
-          if git status | grep -q modified; then git -c http.$REPO_URL.extraheader="Authorization: Basic ${token}" push; fi
+          if git status | grep -q modified; then git push; fi
