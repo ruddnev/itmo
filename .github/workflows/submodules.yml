@@ -35,7 +35,7 @@ jobs:
           sed -i 's/\r$//' .github/workflows/renameCheck.sh
           ./.github/workflows/renameCheck.sh "$orgName" "$headerPrefix"
           
-          sed -i 's/\r$//' github/workflows/updateSubmodules.sh
+          sed -i 's/\r$//' .github/workflows/updateSubmodules.sh
           ./.github/workflows/updateSubmodules.sh "${token}"
           
           REPO_URL=https://github.com/${mainRepo}.git"
