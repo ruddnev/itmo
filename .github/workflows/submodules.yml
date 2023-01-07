@@ -13,10 +13,10 @@ jobs:
           submodules: recursive
       - name: Submodule update
         env:
-          headerPrefix: "###"
           mainRepo: ruddnev/ITMO
           token: ${{ secrets.PAT }}
         run: |
+          headerPrefix="###"
           git config --global user.name "GitHub Action"
           git config --global user.email "noreply@github.com"
           orgName=$(echo $mainRepo | tr -d "/")
