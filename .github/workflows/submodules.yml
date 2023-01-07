@@ -14,7 +14,7 @@ jobs:
       - name: Submodule update
         env:
           headerPrefix: "###"
-          mainRepo: ${{ github.action_repository }}
+          mainRepo: ruddnev/ITMO
           token: ${{ secrets.PAT }}
         run: |
           git config --global user.name "GitHub Action"
