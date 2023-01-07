@@ -1,7 +1,3 @@
-[submodule "1st-semester/programming-labs/lab4"]
-	path = 1st-semester/programming-labs/lab4
-	url = https://github.com/ruddnevitmo/s1-prog-lab4
-	branch = main
 [submodule "1st-semester/mathematical-analysis/colloquium"]
 	path = 1st-semester/mathematical-analysis/colloquium
 	url = https://github.com/ruddnevITMO/s1-ma-colloquium
@@ -17,4 +13,8 @@
 [submodule "1st-semester/programming/lab2"]
 	path = 1st-semester/programming/lab2
 	url = https://github.com/ruddnevITMO/s1-prog-lab2
+	branch = main
+[submodule "1st-semester/programming/lab4"]
+	path = 1st-semester/programming/lab4
+	url = https://github.com/ruddnevITMO/s1-prog-lab4
 	branch = main
