@@ -36,6 +36,6 @@ jobs:
           ./.github/workflows/renameCheck.sh "$orgName" "$headerPrefix"
           
           sed -i 's/\r$//' .github/workflows/updateSubmodules.sh
-          ./.github/workflows/updateSubmodules.sh "${httpsToken}"
+          ./.github/workflows/updateSubmodules.sh "${httpsToken} ${orgName}"
           
           if git status | grep -q modified; then git push; fi

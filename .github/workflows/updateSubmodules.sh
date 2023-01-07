@@ -1,6 +1,9 @@
 #/bin/bash
 
+
 token="$1"
+orgName="$2"
+
 
 touch newLastCommits.tmp
 
