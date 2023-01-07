@@ -15,6 +15,15 @@ done;
 
 sort -o newLastCommits.tmp newLastCommits.tmp
 
+echo ---------
+echo submoduleRepos.tmp
+cat submoduleRepos.tmp
+echo ---------
+echo newLastCommits.tmp
+cat newLastCommits.tmp
+echo ---------
+
+
 newLastCommits="newLastCommits.tmp"
 lastCommits=".github/workflows/lastCommits.txt"
 # lastCommits="lastCommitsTemp.txt"
