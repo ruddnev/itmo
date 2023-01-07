@@ -34,3 +34,5 @@ jobs:
           ./.github/workflows/renameCheck.sh "$orgName" "$headerPrefix"
 
           ./.github/workflows/updateSubmodules.sh "${token}"
+          
+          git push
