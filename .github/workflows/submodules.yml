@@ -30,7 +30,7 @@ jobs:
           newReposCount=$(cat newRepos.tmp | wc -l)
           
           sed -i 's/\r$//' .github/workflows/addSubmodules.sh
-          if [ "$newReposCount" -gt "0" ]; then ./.github/workflows/addSubmodules.sh "$headerPrefix"; fi
+          if [ "$newReposCount" -gt "0" ]; then ./.github/workflows/addSubmodules.sh "$headerPrefix" "$orgName"; fi
           
           sed -i 's/\r$//' .github/workflows/renameCheck.sh
           ./.github/workflows/renameCheck.sh "$orgName" "$headerPrefix"
