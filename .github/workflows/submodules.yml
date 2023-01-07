@@ -38,4 +38,4 @@ jobs:
           sed -i 's/\r$//' .github/workflows/updateSubmodules.sh
           ./.github/workflows/updateSubmodules.sh "${httpsToken}" "${orgName}"
           
-          if git status | grep -q modified; then git push; fi
+          git push
