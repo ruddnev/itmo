@@ -1,6 +1,7 @@
 #!/bin/bash
 
 headerPrefix="^${1} "
+orgName="${2}"
 
 cat newRepos.tmp | while read line; do 
     if [ -z "$line" ]; then 
