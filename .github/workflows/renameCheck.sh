@@ -119,16 +119,14 @@ if [ -s "submoduleDirs.tmp" ]; then
             git submodule --quiet add -b main https://github.com/${orgName}/${fullRepo} ${newDir}/${repo}
             git submodule update --init --recursive
             git add .gitmodules
-            git commit -m "moving ${fullRepo} submodule from ${oldDirOnly} to ${newDirOnly}"
+            git commit -am "moving ${fullRepo} submodule from ${oldDirOnly} to ${newDirOnly}"
         
         else
             git add .gitmodules
-            git commit -m "removing ${fullRepo} submodule"
+            git commit -am "removing ${fullRepo} submodule"
         fi
 
     done
 
 fi
 
-find . -empty -type d -delete
-git commit -am "cleaning empty folders"
