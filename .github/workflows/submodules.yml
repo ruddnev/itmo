@@ -38,6 +38,4 @@ jobs:
           sed -i 's/\r$//' .github/workflows/updateSubmodules.sh
           ./.github/workflows/updateSubmodules.sh "${token}"
           
-          REPO_URL=https://github.com/${mainRepo}.git"
-          
           if git status | grep -q modified; then git push; fi
