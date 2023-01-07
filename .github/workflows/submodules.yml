@@ -29,10 +29,10 @@ jobs:
           comm -13 submoduleRepos.tmp readmeRepos.tmp > newRepos.tmp
           newReposCount=$(cat newRepos.tmp | wc -l)
           
-          if [ "$newReposCount" -gt "0" ]; then ./.github/workflows/addSubmodules.sh "$headerPrefix"; fi
+          if [ "$newReposCount" -gt "0" ]; then bash .github/workflows/addSubmodules.sh "$headerPrefix"; fi
           
-          ./.github/workflows/renameCheck.sh "$orgName" "$headerPrefix"
+          bash .github/workflows/renameCheck.sh "$orgName" "$headerPrefix"
 
-          ./.github/workflows/updateSubmodules.sh "${token}"
+          bash .github/workflows/updateSubmodules.sh "${token}"
           
           git push
