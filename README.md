@@ -10,9 +10,9 @@
 
 ### Discrete mathematics
 
-- [***[lab1]*** Huffman coding](https://github.com/ruddnevITMO/s1-dm-lab1)
 
 ### Mathematical analysis
 
+- [***[lab1]*** Huffman coding](https://github.com/ruddnevITMO/s1-dm-lab1)
 - [Useful materials for a colloquium](https://github.com/ruddnevITMO/s1-ma-colloquium) [***[as a website]***](https://ruddnevITMO.github.io/s1-ma-colloquium)
 
