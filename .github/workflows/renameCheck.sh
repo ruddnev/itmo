@@ -131,5 +131,6 @@ if [ -s "submoduleDirs.tmp" ]; then
 fi
 
 find . -empty -type d -delete
+git commit -am "cleaning empty folders"
 
 rm -rf *.tmp
