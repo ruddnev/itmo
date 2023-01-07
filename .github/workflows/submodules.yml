@@ -22,7 +22,7 @@ jobs:
           orgName=$(echo $mainRepo | tr -d "/")
           chmod +x .github/workflows/*.sh
           grep1="\(https:\/\/github\.com\/${orgName}\/[a-zA-Z0-9\-]{1,}(\/tree\/main)?\)"
-          grep2="(?<=https:\/\/github\.com\/${orgName}\/)[a-zA-Z0-9\-]{1,}"
+          grep2="(?<=url = https:\/\/github\.com\/${orgName}\/)[a-zA-Z0-9\-\.]{1,}"
           curl -H "Authorization: token ${httpsToken}" -H 'Cache-Control: no-cache, no-store' -s https://raw.githubusercontent.com/${mainRepo}/main/README.md | grep -i -o -P "$grep1" | grep -o -P 's[0-9]-[a-zA-Z0-9]{1,}-[a-zA-Z0-9]{1,}' | sort > readmeRepos.tmp
           sleep 5
           curl -H "Authorization: token ${httpsToken}" -H 'Cache-Control: no-cache, no-store' -s https://raw.githubusercontent.com/${mainRepo}/main/.gitmodules | grep -i -o -P "$grep2" | sort > submoduleRepos.tmp
