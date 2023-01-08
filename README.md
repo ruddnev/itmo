@@ -1,4 +1,4 @@
-# ITMO Studies
+# [ITMO Studies](https://github.com/ruddnev/ITMO)
 
 
 ### Programming (Java)
