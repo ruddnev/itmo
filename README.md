@@ -14,5 +14,6 @@
 
 ### Mathematical analysis
 
-- [Useful materials for a colloquium](https://github.com/ruddnevITMO/s1-ma-colloquium) [***[as a website]***](https://ruddnevITMO.github.io/s1-ma-colloquium)
+- [Useful materials for a colloquium](https://github.com/ruddnevITMO/s1-ma-colloquium) 
+  - [As a website](https://ruddnevITMO.github.io/s1-ma-colloquium) [***[template used]***](https://github.com/ruddnevITMO/cardsite)
 
