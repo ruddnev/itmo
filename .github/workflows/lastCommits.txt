@@ -1,5 +1,5 @@
 s1-dm-lab1: 7bddc5612c489d0c67d990831aab7ac82bcbb96e
-s1-ma-colloquium: 5f0347e73e2d8412488aa7ab6cbec14c35122d91
+s1-ma-colloquium: 6cc9e7f579ac90f1cc34d88f3def9d8cc06596fd
 s1-prog-lab1: aad6bec56fdab25ce77ec1aa709211e0dc13b960
 s1-prog-lab2: 0960bb20a39f2d27919573996e11e540d3e07b09
 s1-prog-lab3: b2bd95c4cc43b8cb969c540662c95c2ce0004fd1
