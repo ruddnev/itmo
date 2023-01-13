@@ -12,12 +12,12 @@ jobs:
     steps:
       - uses: actions/checkout@v3
         with:
-          token: ${{ secrets.PAT }}
+          token: ${{ github.token }}
           submodules: recursive
       - name: Submodule update
         env:
           mainRepo: ${{ github.repository }}
-          httpsToken: ${{ secrets.PAT }}
+          httpsToken: ${{ github.token }}
         run: |
           headerPrefix="###"
           echo $mainRepo
