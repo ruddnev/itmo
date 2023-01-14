@@ -6,3 +6,7 @@
 	path = 1st-semester/mathematical-analysis/colloquium
 	url = https://github.com/ruddnevitmo/s1-ma-colloquium
 	branch = main
+[submodule "1st-semester/programming/lab1"]
+	path = 1st-semester/programming/lab1
+	url = https://github.com/ruddnevitmo/s1-prog-lab1
+	branch = main
