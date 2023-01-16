@@ -22,3 +22,7 @@
 	path = 1st-semester/programming/lab4
 	url = https://github.com/ruddnevitmo/s1-prog-lab4
 	branch = main
+[submodule "1st-semester/linear-algebra/exam"]
+	path = 1st-semester/linear-algebra/exam
+	url = https://github.com/ruddnevitmo/s1-lin-exam
+	branch = main
