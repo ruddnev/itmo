@@ -17,3 +17,7 @@
 - [Useful materials for a colloquium](https://github.com/ruddnevITMO/s1-ma-colloquium) 
   - [As a website](https://ruddnevITMO.github.io/s1-ma-colloquium) [***[template used]***](https://github.com/ruddnevITMO/cardsite)
 
+### Linear algebra
+
+- [Useful materials for an exam](https://github.com/ruddnevITMO/s1-lin-exam) 
+  - [As a website](https://ruddnevITMO.github.io/s1-lin-exam) [***[template used]***](https://github.com/ruddnevITMO/cardsite)
