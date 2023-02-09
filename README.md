@@ -1,5 +1,11 @@
 # [ITMO Studies](https://github.com/ruddnev/ITMO)
 
+<details>
+<summary>
+
+##  Semester 1
+
+</summary>
 
 ### Programming (Java)
 
@@ -21,3 +27,18 @@
 
 - [Useful materials for an exam](https://github.com/ruddnevITMO/s1-lin-exam) 
   - [As a website](https://ruddnevITMO.github.io/s1-lin-exam) [***[template used]***](https://github.com/ruddnevITMO/cardsite)
+</details>
+
+
+<details open>
+<summary>
+
+##  Semester 2
+
+</summary>
+
+### Programming (Java)
+
+- [***[lab5]*** Collections](https://github.com/ruddnevITMO/s2-prog-lab5)
+
+</details>
