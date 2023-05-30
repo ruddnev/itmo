@@ -41,5 +41,6 @@
 
 - [***[lab5]*** Collections](https://github.com/ruddnevITMO/s2-prog-lab5)
 - [***[lab6]*** Collections with Client-Server implementation](https://github.com/ruddnevITMO/s2-prog-lab6)
+- [***[lab7]*** Client-Server collection with DB](https://github.com/ruddnevITMO/s2-prog-lab7)
 
 </details>
