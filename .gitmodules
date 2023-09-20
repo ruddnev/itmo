@@ -42,3 +42,7 @@
 	path = 2nd-semester/programming/lab8
 	url = https://github.com/ruddnevitmo/s2-prog-lab8
 	branch = main
+[submodule "2nd-semester/programming/lab8game"]
+	path = 2nd-semester/programming/lab8game
+	url = https://github.com/ruddnevitmo/s2-prog-lab8game
+	branch = main
