@@ -1,6 +1,10 @@
+  "documentation_url": "https://docs.github.com/rest/guides/best-practices-for-using-the-rest-api#follow-redirects"
+  "message": "Moved Permanently",
+  "url": "https://api.github.com/repositories/737576226/commits/main",
 s1-dm-lab1: 7bddc5612c489d0c67d990831aab7ac82bcbb96e
 s1-lin-exam: 085e96b5552f1a8ab7406a04bcf7dae5de958f5f
 s1-ma-colloquium: be47c250b1843a7074101607ba4984db5be06227
+s1-pla-project: {
 s1-prog-lab1: aad6bec56fdab25ce77ec1aa709211e0dc13b960
 s1-prog-lab2: 0960bb20a39f2d27919573996e11e540d3e07b09
 s1-prog-lab3: b2bd95c4cc43b8cb969c540662c95c2ce0004fd1
@@ -11,3 +15,4 @@ s2-prog-lab7: fa7fe9c4876280df89f5ae714320ec80b809d470
 s2-prog-lab8: aa0717d8cb07029b8124a7f95bb241e6ff158f25
 s2-prog-lab8game: c042ccb756f29ce96da93d11701b582cacb2bcdc
 s2-prog-lab8prep: 16ae2495038f220a829514979af3247f0476994e
+}
