@@ -50,3 +50,7 @@
 	path = 2nd-semester/programming/lab8prep
 	url = https://github.com/ruddnevitmo/s2-prog-lab8prep
 	branch = main
+[submodule "3rd-semester/linear-algebra/project"]
+	path = 3rd-semester/linear-algebra/project
+	url = https://github.com/ruddnevitmo/s3-pla-project
+	branch = main
