@@ -57,7 +57,5 @@
 
 ### Linear algebra
 
-- [Final project ‭«Линалгеброзация»](https://github.com/ruddnevITMO/s1-pla-project)
-  - [As a website](https://ruddnevITMO.github.io/s1-pla-project)
 </details>
 
