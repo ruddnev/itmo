@@ -30,7 +30,7 @@
 </details>
 
 
-<details open>
+<details>
 <summary>
 
 ##  Semester 2
@@ -47,3 +47,17 @@
   - [***[lab8-task]*** Task game based on Flats locations](https://github.com/ruddnevITMO/s2-prog-lab8game)
 
 </details>
+
+<details open>
+<summary>
+
+##  Semester 3
+
+</summary>
+
+### Linear algebra
+
+- [Final project ‭«Линалгеброзация»](https://github.com/ruddnevITMO/s1-pla-project)
+  - [As a website](https://ruddnevITMO.github.io/s1-pla-project)
+</details>
+
