@@ -1,11 +1,8 @@
 # [ITMO Studies](https://github.com/ruddnev/ITMO)
 
+
 <details>
-<summary>
-
-##  Semester 1
-
-</summary>
+<summary style="font-size:1.25em"><strong>Semester 1</strong></summary>
 
 ### Programming (Java)
 
@@ -31,11 +28,7 @@
 
 
 <details>
-<summary>
-
-##  Semester 2
-
-</summary>
+<summary style="font-size:1.25em"><strong>Semester 2</strong></summary>
 
 ### Programming (Java)
 
@@ -49,11 +42,7 @@
 </details>
 
 <details open>
-<summary>
-
-##  Semester 3
-
-</summary>
+<summary style="font-size:1.25em"><strong>Semester 3</strong></summary>
 
 ### Linear algebra
 
